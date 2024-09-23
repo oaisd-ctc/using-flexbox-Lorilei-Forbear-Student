@@ -6,12 +6,19 @@
     flex-direction: row-reverse;
     margin: 20px;
 }
+
 .container > div{
 height: 400px;
 flex: 1;
 background-color: white;
 margin: 20px;
 }
+
+.container > div::first-letter{
+color: black;
+font-size: 30px;
+}
+
 .flex{
     display: flex;
     height: 400px;
@@ -21,11 +28,13 @@ margin: 20px;
     align-items: center;
     margin: 20px;
 }
+
 .flex > div{
     height: 200px;
     width: 200px;
     background-color: white;
 }
+
 .menu{
     display: flex;
     height: 200px;
@@ -33,10 +42,29 @@ margin: 20px;
     background-color: lightblue;
     flex-direction: row;
     margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
+
 .menu > div{
-    height: 150px;
+    height: 100px;
     flex: 1;
     background-color: white;
     margin: 20px;
+}
+
+.menu > div:hover{
+    background-color: pink;
+    flex: 2;
+    transition: 200ms;
+}
+
+.menu > div:nth-child(odd){
+    background-color: cadetblue;
+}
+a:unvisited{
+color: red;
+}
+a:visited{
+    color: red;
 }

@@ -3,18 +3,18 @@
     height: 800px;
     width: 100%;
     background-color: dodgerblue;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /* Sets direction of flexboxes into reverse row order*/
     margin: 20px;
 }
 
 .container > div{
 height: 400px;
-flex: 1;
+flex: 1; /*Makes every flexbox take up the same amount of space.*/
 background-color: white;
 margin: 20px;
 }
 
-.container > div::first-letter{
+.container > div::first-letter{ /*Makes the first letter of all divs in the container class div bigger.*/
 color: black;
 font-size: 30px;
 }
@@ -24,8 +24,8 @@ font-size: 30px;
     height: 400px;
     width: 100%;
     background-color: lightblue;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*Justifies all content to the center.*/
+    align-items: center; /*Aligns all items to center, so I don't have to do it through margins*/
     margin: 20px;
 }
 
@@ -59,12 +59,12 @@ font-size: 30px;
     transition: 200ms;
 }
 
-.menu > div:nth-child(odd){
+.menu > div:nth-child(odd){ /*Makes all odd divs in the menu cadet blue*/
     background-color: cadetblue;
 }
-a:unvisited{
+a:unvisited{ /*Makes all unvisited links red. May not work, clicked before it loaded. Whoops.*/
 color: red;
 }
-a:visited{
+a:visited{ /*Makes all visited links red. This one works, I had to add it just in case the other one didn't.*/
     color: red;
 }

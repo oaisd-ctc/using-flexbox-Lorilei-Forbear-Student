@@ -4,4 +4,5 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 https://www.w3schools.com/css/css3_flexbox_items.asp
 https://www.w3schools.com/css/css3_flexbox_responsive.asp
 https://www.w3schools.com/cssref/sel_nth-child.php
+https://www.w3schools.com/css/css_pseudo_classes.asp
 👍

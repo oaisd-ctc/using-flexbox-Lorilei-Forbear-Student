@@ -1,0 +1,6 @@
+Everyhting I researched came from W3Schools. 
+https://www.w3schools.com/css/css3_flexbox.asp
+https://www.w3schools.com/css/css3_flexbox_container.asp
+https://www.w3schools.com/css/css3_flexbox_items.asp
+https://www.w3schools.com/css/css3_flexbox_responsive.asp
+:thumbs-up:
